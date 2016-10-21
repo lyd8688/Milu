@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>用semantic各种组件</title>
+    <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title">
+  </head>
+  <body>
+    <div class="ui segment ">
+      <i class="huge icons">
+        <i class="red massive thin circle icon"></i>
+        <i class="white huge  thin circle icon"></i>
+        <i class="red huge circle icon"></i>
+        <i class="blue big  circle icon"></i>
+        <i class="inverted White  star icon"></i>
+      </i>
+      <p>
+        错误示范
+      </p>
+    </div>
+    <div class="ui segment">
+        <div class="ui inverted red circular  segment">
+          <div class="ui  circular segment">
+            <div class="ui inverted red circular segment">
+                <i class="circular inverted blue big star icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          由于这里只有 html 文件，没有 css 文件，所以使用了链接引用的方式 href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.css"
+          当然，你使用 CSS文件也是可以的。
+
+          解读一下答案：
+          segment 是一个没有最大宽高限制的样式，所以经过嵌套之后有这种不同大小层叠的样式。
+          big 这种样式可以在大多数 semantic ui 样式中使用，比如 header,img 也是通用的。
+
+        </p>
+    </div>
+
+    </div>
+
+
+
+    <div class="ui segment">
+      sradasasdasd
+    </div>
+    <div class="ui  segment">
+          <button class="  ui label green button" name="button">
+            <i class="share icon"></i>
+            Share
+          </button>
+    </div>
+    <div class="ui inverted  vertical circular red segment">
+      42
+    </div>
+    <div class="ui red segment">
+      红色
+    </div>
+  </body>
+</html>
