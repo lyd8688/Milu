@@ -1,0 +1,42 @@
+body{
+  background-color: #eaeaea;
+}
+p{
+  color: white;
+}
+.blue-card{
+  background-color: #9cbfcc;
+  box-sizing: border-box;
+  width:230px;
+  height: 290px;
+  border-radius: 5px;
+  padding-left: 58px;
+  padding-top: 56px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.red-card{
+  background-color: #6bb790;
+  box-sizing: border-box;
+  width:230px;
+  height: 290px;
+  border-radius: 5px;
+  padding-left: 58px;
+  padding-top: 56px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.green-card{
+  background-color: #f5b227;
+  box-sizing: border-box;
+  width:230px;
+  height: 290px;
+  border-radius: 5px;
+  padding-left: 58px;
+  padding-top: 56px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
