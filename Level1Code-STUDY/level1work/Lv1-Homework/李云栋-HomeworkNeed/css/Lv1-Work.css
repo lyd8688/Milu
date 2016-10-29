@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+.ui.three.item.borderless.menu {
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.ui.three.item.borderless.menu{
+    box-sizing: border-box;
+    width: 360px;
+    height: 30px;
+}
+.ui.text.menu {
+    margin-top: -10px;
+}
+
+.ui.compact.menu.last{
+    margin-top: 60px;
+}
+
+form {
+    margin-bottom:200px;
+    left: 45%;
+}
