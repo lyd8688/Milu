@@ -1,0 +1,40 @@
+body{
+  background-color: #eaeaea;
+}
+p{
+    color: white;
+}
+.redblock{
+    background-color: orange;
+    box-sizing: border-box;
+    width: 230px;
+    height: 290px;
+    padding-top: 56px;
+    padding-left: 58px;
+    margin: 0 15px 0 0;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.greenblock{
+    background-color: green;
+    box-sizing: border-box;
+    width: 230px;
+    height: 290px;
+    padding-top: 56px;
+    padding-left: 58px;
+    margin: 0 15px 0 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+.blueblock{
+    background-color: red;
+    box-sizing: border-box;
+    width: 230px;
+    height: 290px;
+    padding-top: 56px;
+    padding-left: 58px;
+    margin: 0 15px 0 0;
+    display: inline-block;
+    border-radius: 10px;
+}
