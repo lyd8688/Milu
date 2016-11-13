@@ -1,0 +1,65 @@
+body{
+  background-color: grey;
+  background: url(images/brick.jpg);
+  background-size: 150px,150px;
+  margin: 0;
+
+}
+.redblock{
+  width:64px;
+  height: 64px;
+  background-color: red;
+  box-sizing: border-box;
+  background:url(images/grass.png);
+  background-size: contain;
+}
+.greenblock{
+  width: 128px;
+  height: 64px;
+  box-sizing: border-box;
+  background-color: green;
+  background:url(images/grass.png);
+  background-size: contain;
+}
+.blueblock{
+  width:256px;
+  height: 64px;
+  box-sizing:border-box;
+  background-color: blue;
+  background:url(images/grass.png);
+  background-size: contain;
+}
+.flower{
+  width: 64px;
+  height: 64px;
+  background: url(images/rose.png);
+  box-sizing: border-box;
+  background-size: contain;
+  position: relative;
+  left: 32px;
+  top: 64px;
+}
+.yellow-flower{
+  width: 64px;
+  height: 64px;
+  background: url(images/flower.png);
+  box-sizing: border-box;
+  background-size:contain;
+  position:absolute;
+  left: 128;
+}
+.point{
+  width: 8px;
+  height: 8px;
+  background: rgb(200, 120, 180);
+}
+.bg{
+  background: rgb(129, 205, 192);
+  border:solid 10px rgb(255, 205, 150);
+  width: 320px;
+  height: 256px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left:50%;
+  top:50%;
+}
